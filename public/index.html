@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Room</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+  <div class="content">
+    <div class="room">
+      <div class="room-list"></div>
+      <div class="messages"></div>
+    </div>
+    <form id="send-form">
+      <input id="send-message" />
+      <input id="send-button" type="submit" value="Send" />
+
+      <div class="help">
+        Chat commands:
+        <ul>
+          <li>Change nickname: <code>/nick [username]</code></li>
+          <li>Join/Create room: <code>/join [room name]</code></li>
+        </ul>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
