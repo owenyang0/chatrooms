@@ -1,0 +1,15 @@
+{
+  "name": "chatrooms",
+  "version": "0.0.1",
+  "description": "minimal chat server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Owen Yang (usay@outlook.com)",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "~1.1.0",
+    "mime": "~1.2.11"
+  }
+}
